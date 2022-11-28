@@ -1,5 +1,6 @@
 
 def max_knapsack(max_weight: int,arrayOfItems: list,n: int):
+    #dynamic programming 
     #table to calculate values
     arr=[[0 for i in range(max_weight+1)] for i in range(n+1) ]
    
