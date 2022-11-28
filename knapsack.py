@@ -1,4 +1,7 @@
 
+#n: Number of Items
+#max_weight: Maximum weight of knapsack
+#Array of items
 def max_knapsack(max_weight: int,arrayOfItems: list,n: int):
     #dynamic programming 
     #table to calculate values
